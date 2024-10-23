@@ -10,15 +10,12 @@ function isValidPassword(password, username) {
     }
 } 
 
-
-// Ask the user for input
 const username = prompt("Enter your username:");
 const password = prompt("Enter your password:");
 
-// Check if the password is valid
 const result = isValidPassword(password, username);
 
-// Display the result
+
 if (result) {
     console.log("Your password is valid!");
 } else {
